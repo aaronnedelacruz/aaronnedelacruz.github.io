@@ -2,8 +2,8 @@ import heroBanner from "../assets/hero_banner.png";
 import heroBg from "../assets/hero_bg.png";
 import aboutImg from "../assets/about_img.png";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
 import studySyncVideo from "../assets/StudySync_Preview_Video.mp4";
+import project2 from "../assets/project2.png";
 
 
 export const hero = {

@@ -37,7 +37,7 @@ function Navbar() {
           aria-label="Go to hero section"
         >
           <img
-            src="/horizontal-logo.png"
+            src="/favicon-transparent.png"
             alt="Aaronne Dela Cruz Logo"
             className="h-8 sm:h-10 w-auto max-w-full"
           />
