@@ -5,7 +5,6 @@ import project1 from "../assets/project1.png";
 import studySyncVideo from "../assets/StudySync_Preview_Video.mp4";
 import project2 from "../assets/project2.png";
 
-
 export const hero = {
   images: {
     background: heroBg,
@@ -14,7 +13,7 @@ export const hero = {
 
   name: "Aaronne Dela Cruz",
 
-  title: "Full Stack Developer",
+  title: "Full Stack Developer | UI/UX Designer",
 
   tagline:
     "Building modern web and mobile applications with clean code, intuitive design, and practical solutions.",
@@ -127,9 +126,17 @@ export const projects = {
         "Offline access and PDF export for study sets.",
       ],
 
-      stack: ["Android Studio", "Java", "Kotlin", "XML", "Firebase", "Gemini AI API"],
+      stack: [
+        "Android Studio",
+        "Java",
+        "Kotlin",
+        "XML",
+        "Firebase",
+        "Gemini AI API",
+      ],
 
-      repository: "https://github.com/ShayneGulmayo/StudySync-Flashcard-and-Quiz.git",
+      repository:
+        "https://github.com/ShayneGulmayo/StudySync-Flashcard-and-Quiz.git",
 
       hasDemo: false,
 
@@ -153,28 +160,19 @@ export const projects = {
         ],
 
         tech: {
-          frontend: [
-            "Java", 
-            "Kotlin", 
-            "XML"
-          ],
+          frontend: ["Java", "Kotlin", "XML"],
 
-          backend: [
-            "Firebase Authentication",
-            "Gemini AI API",
-          ],
+          backend: ["Firebase Authentication", "Gemini AI API"],
 
-          database: [
-            "Firebase Realtime Database",
-          ],
+          database: ["Firebase Realtime Database"],
 
-          tools: [
-            "Android Studio",
-          ],
+          tools: ["Android Studio"],
         },
         links: {
           demo: "#",
           repository: "https://github.com/yourusername/project",
+          figma:
+            "https://www.figma.com/design/OFytwB7Y5T2ihEWSTRWfDs/StudySync?node-id=0-1&t=HRWc6zQR7GVkLyCr-1",
         },
       },
     },
@@ -243,6 +241,8 @@ export const projects = {
         links: {
           demo: "#",
           repository: "https://github.com/yourusername/interntrack",
+          figma:
+            "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
         },
       },
     },
@@ -271,25 +271,12 @@ export const skills = {
 
     {
       title: "Backend",
-      items: [
-        "PHP",
-        "Laravel",
-        "Java",
-        "Python",
-        "C#",
-        "Kotlin",
-      ],
+      items: ["PHP", "Laravel", "Java", "Python", "C#", "Kotlin"],
     },
 
     {
       title: "Databases",
-      items: [
-        "MySQL",
-        "MongoDB",
-        "Firebase Firestore",
-        "IBM Db2 Cloud",
-        "SQL",
-      ],
+      items: ["MySQL", "MongoDB", "Firebase Firestore", "IBM Db2 Cloud", "SQL"],
     },
 
     {

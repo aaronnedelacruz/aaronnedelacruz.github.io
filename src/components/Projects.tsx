@@ -31,6 +31,7 @@ interface ProjectItem {
   repository: string;
   hasDemo: boolean;
   demo: string;
+  figma?: string;
   details: ProjectDetails;
 }
 
@@ -254,6 +255,32 @@ function Projects() {
                     >
                       <i className="bi bi-box-arrow-up-right"></i>
                       {projects.labels.demo}
+                    </a>
+                  )}
+
+                  {project.details.links?.figma && (
+                    <a
+                      href={project.details.links.figma}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="
+                      inline-flex
+                      items-center
+                      gap-1.5
+                      rounded-full
+                      border
+                      border-primary
+                      px-4
+                      py-2.5
+                      text-sm
+                      font-medium
+                      transition
+                      hover:bg-primary
+                      hover:text-black
+                    "
+                    >
+                      <i className="bi bi-vector-pen"></i>
+                      Figma Design
                     </a>
                   )}
 
