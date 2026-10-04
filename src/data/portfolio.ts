@@ -277,7 +277,7 @@ export const projects = {
         "Figma",
       ],
 
-      repository: "#",
+      repository: "",
 
       hasDemo: false,
 
@@ -348,7 +348,7 @@ export const projects = {
         "Figma",
       ],
 
-      repository: "#",
+      repository: "https://github.com/aaronnedelacruz/baybayin-learning-platform",
 
       hasDemo: false,
 

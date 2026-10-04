@@ -209,29 +209,31 @@ function Projects() {
                   "
                   onClick={(e) => e.stopPropagation()}
                 >
-                  <a
-                    href={project.repository}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="
-                    inline-flex
-                    items-center
-                    gap-1.5
-                    rounded-full
-                    border
-                    border-primary
-                    px-4
-                    py-2.5
-                    text-sm
-                    font-medium
-                    transition
-                    hover:bg-primary
-                    hover:text-black
-                  "
-                  >
-                    <i className="bi bi-github"></i>
-                    {projects.labels.repository}
-                  </a>
+                  {project.repository && (
+                    <a
+                      href={project.repository}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="
+                        inline-flex
+                        items-center
+                        gap-1.5
+                        rounded-full
+                        border
+                        border-primary
+                        px-4
+                        py-2.5
+                        text-sm
+                        font-medium
+                        transition
+                        hover:bg-primary
+                        hover:text-black
+                      "
+                    >
+                      <i className="bi bi-github"></i>
+                      {projects.labels.repository}
+                    </a>
+                  )}
 
                   {project.hasDemo && (
                     <a
@@ -490,29 +492,31 @@ function Projects() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href={activeProject.repository}
-                target="_blank"
-                rel="noreferrer"
-                className="
-                inline-flex
-                items-center
-                gap-1.5
-                rounded-full
-                border
-                border-primary
-                px-4
-                py-2.5
-                text-sm
-                font-medium
-                transition
-                hover:bg-primary
-                hover:text-black
-              "
-              >
-                <i className="bi bi-github"></i>
-                {projects.labels.repository}
-              </a>
+              {activeProject.repository && (
+                <a
+                  href={activeProject.repository}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="
+                    inline-flex
+                    items-center
+                    gap-1.5
+                    rounded-full
+                    border
+                    border-primary
+                    px-4
+                    py-2.5
+                    text-sm
+                    font-medium
+                    transition
+                    hover:bg-primary
+                    hover:text-black
+                  "
+                >
+                  <i className="bi bi-github"></i>
+                  {projects.labels.repository}
+                </a>
+              )}
 
               {activeProject.hasDemo && (
                 <a
