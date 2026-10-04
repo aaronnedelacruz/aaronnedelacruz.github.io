@@ -243,8 +243,7 @@ export const projects = {
         links: {
           demo: "#",
           repository: "https://github.com/yourusername/interntrack",
-          figma:
-            "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
+          figma: "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
         },
       },
     },
@@ -254,10 +253,11 @@ export const projects = {
 
       title: "Hues Café Website",
 
-      category: "Client Project • Full-stack Developer • Sep 2026 – Present",
+      category:
+        "Freelance Client Project • Full-stack Developer • Sep 2026 – Present",
 
       description:
-        "A full-stack website developed for Hues Café to strengthen its online presence by showcasing the café's story, products, services, coffee cart packages, and contact information through a modern, responsive, and user-friendly experience.",
+        "A full-stack website being developed for Hues Café to strengthen its online presence by showcasing the café's story, products, services, coffee cart packages, and contact information through a modern, responsive, and user-friendly experience.",
 
       features: [
         "Responsive landing pages showcasing the café's brand and story.",
@@ -273,8 +273,8 @@ export const projects = {
         "JavaScript",
         "PHP",
         "MySQL",
-        "XAMPP",
         "Visual Studio Code",
+        "Figma",
       ],
 
       repository: "#",
@@ -285,19 +285,19 @@ export const projects = {
 
       details: {
         overview:
-          "Developing a full-stack business website for Hues Café that highlights the café's brand identity, menu offerings, catering services, and company information while providing customers with an engaging and responsive browsing experience.",
+          "Developing a full-stack business website for Hues Café that highlights the café's brand identity, menu offerings, catering services, and company information while providing an engaging and responsive browsing experience.",
 
         challenge:
           "The client needed a professional online presence that effectively communicates the café's identity, promotes its products and services, and presents information in a visually appealing and accessible way across different devices.",
 
         solution:
-          "Designed and developed a responsive full-stack website featuring structured business information, categorized menus, service highlights, and a modern interface to improve the café's digital presence and customer engagement.",
+          "Designing and developing a responsive full-stack website featuring structured business information, categorized menus, service highlights, and a modern interface to improve the café's digital presence and customer engagement.",
 
         impact: [
-          "Provides Hues Café with a professional online presence.",
-          "Makes menu items and business information easily accessible to customers.",
-          "Improves customer awareness of coffee cart catering and other services.",
-          "Strengthens the café's branding through a consistent and responsive website experience.",
+          "Will provide Hues Café with a professional online presence.",
+          "Will make menu items and business information easily accessible to customers.",
+          "Will improve customer awareness of coffee cart catering and other services.",
+          "Will strengthen the café's branding through a consistent and responsive website experience.",
         ],
 
         tech: {
@@ -307,7 +307,7 @@ export const projects = {
 
           database: ["MySQL"],
 
-          tools: ["Visual Studio Code", "XAMPP", "Figma"],
+          tools: ["Visual Studio Code", "Figma"],
         },
 
         links: {
@@ -383,8 +383,8 @@ export const projects = {
 
         links: {
           demo: "#",
-          repository: "#",
-          figma: "#",
+          repository: "https://github.com/aaronnedelacruz/baybayin-learning-platform",
+          figma: "",
         },
       },
     },
