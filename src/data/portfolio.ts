@@ -4,6 +4,8 @@ import aboutImg from "../assets/about_img.png";
 import project1 from "../assets/project1.png";
 import studySyncVideo from "../assets/StudySync_Preview_Video.mp4";
 import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 
 export const hero = {
   images: {
@@ -182,7 +184,7 @@ export const projects = {
 
       title: "InternTrack: Personal Internship Hours Tracker",
 
-      category: "Personal Project • Full-stack Developer • Jul 2026",
+      category: "Personal Project • Full-stack Developer • Jun 2026",
 
       description:
         "A personal web application that helps interns manage their internship by tracking work hours, logging daily accomplishments, monitoring deadlines, forecasting their expected internship completion date, and visualizing progress through interactive dashboards and reports.",
@@ -243,6 +245,146 @@ export const projects = {
           repository: "https://github.com/yourusername/interntrack",
           figma:
             "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
+        },
+      },
+    },
+
+    {
+      thumbnail: project3,
+
+      title: "Hues Café Website",
+
+      category: "Client Project • Full-stack Developer • Sep 2026 – Present",
+
+      description:
+        "A full-stack website developed for Hues Café to strengthen its online presence by showcasing the café's story, products, services, coffee cart packages, and contact information through a modern, responsive, and user-friendly experience.",
+
+      features: [
+        "Responsive landing pages showcasing the café's brand and story.",
+        "Interactive menu featuring espresso, specialty, and non-espresso beverages.",
+        "Coffee cart catering information with package inclusions and event services.",
+        "Business information including location, mission, vision, and company history.",
+        "Modern user interface optimized for desktop and mobile devices.",
+      ],
+
+      stack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "XAMPP",
+        "Visual Studio Code",
+      ],
+
+      repository: "#",
+
+      hasDemo: false,
+
+      demo: "#",
+
+      details: {
+        overview:
+          "Developing a full-stack business website for Hues Café that highlights the café's brand identity, menu offerings, catering services, and company information while providing customers with an engaging and responsive browsing experience.",
+
+        challenge:
+          "The client needed a professional online presence that effectively communicates the café's identity, promotes its products and services, and presents information in a visually appealing and accessible way across different devices.",
+
+        solution:
+          "Designed and developed a responsive full-stack website featuring structured business information, categorized menus, service highlights, and a modern interface to improve the café's digital presence and customer engagement.",
+
+        impact: [
+          "Provides Hues Café with a professional online presence.",
+          "Makes menu items and business information easily accessible to customers.",
+          "Improves customer awareness of coffee cart catering and other services.",
+          "Strengthens the café's branding through a consistent and responsive website experience.",
+        ],
+
+        tech: {
+          frontend: ["HTML", "CSS", "JavaScript"],
+
+          backend: ["PHP"],
+
+          database: ["MySQL"],
+
+          tools: ["Visual Studio Code", "XAMPP", "Figma"],
+        },
+
+        links: {
+          demo: "#",
+          repository: "#",
+          figma:
+            "https://www.figma.com/design/0bvh1erscsCLZ6yG24Fkjv/Hues-Cafe-UIUX-Layout?node-id=1-3&t=7MTadb0Nwxb2kuaW-1",
+        },
+      },
+    },
+
+    {
+      thumbnail: project4,
+
+      title: "Baybayin Learning Platform",
+
+      category: "Personal Project • Full-stack Developer • Sep 2026 – Present",
+
+      description:
+        "An interactive web platform for learning Baybayin through guided lessons, quizzes, a live keyboard, and a transliteration tool. The application helps users learn, practice, and write using the traditional Filipino writing system.",
+
+      features: [
+        "Step-by-step interactive lessons covering vowels, consonants, kudlit, and writing rules.",
+        "Live Baybayin keyboard with transliteration and character input modes.",
+        "Filipino-to-Baybayin translator with syllable breakdown and character analysis.",
+        "Interactive quizzes and practice exercises with progress tracking.",
+        "Responsive educational interface designed for desktop devices.",
+      ],
+
+      stack: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Visual Studio Code",
+        "Figma",
+      ],
+
+      repository: "#",
+
+      hasDemo: false,
+
+      demo: "#",
+
+      details: {
+        overview:
+          "Developing a modern educational platform that introduces users to the Baybayin writing system through structured lessons, interactive learning tools, quizzes, and a built-in transliteration engine. The project focuses on making Baybayin easier to understand while providing an engaging and responsive user experience.",
+
+        challenge:
+          "Learning Baybayin can be difficult for beginners because educational resources are often fragmented and lack interactive learning experiences. Existing translators also frequently perform direct letter substitutions instead of correctly following Baybayin writing rules.",
+
+        solution:
+          "Designed and developed a full-stack learning platform that combines structured educational lessons, interactive quizzes, a live Baybayin keyboard, and a rule-based transliteration engine to provide a comprehensive and engaging learning experience.",
+
+        impact: [
+          "Made Baybayin learning more approachable through guided, interactive lessons.",
+          "Provided learners with practical tools to write and translate Baybayin accurately.",
+          "Combined education, practice, and writing tools into a single web application.",
+          "Demonstrated algorithmic text processing alongside responsive full-stack web development.",
+        ],
+
+        tech: {
+          frontend: ["React", "TypeScript", "HTML", "CSS", "JavaScript"],
+
+          backend: ["PHP"],
+
+          database: [""],
+
+          tools: ["Vite", "Visual Studio Code", "Git"],
+        },
+
+        links: {
+          demo: "#",
+          repository: "#",
+          figma: "#",
         },
       },
     },
@@ -309,7 +451,7 @@ export const education = {
   address:
     "No. 9 Central Avenue, New Era, Quezon City, Metro Manila, Philippines",
 
-  achievements: ["President's Lister", "GWA: 1.32"],
+  achievements: ["Consistent President's Lister", "GWA: 1.32"],
 };
 
 export const contact = {
