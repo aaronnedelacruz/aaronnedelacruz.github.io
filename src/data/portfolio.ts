@@ -243,7 +243,8 @@ export const projects = {
         links: {
           demo: "#",
           repository: "https://github.com/yourusername/interntrack",
-          figma: "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
+          figma:
+            "https://www.figma.com/design/AZajFeezmN7owZMOzlWlAW/InternTrack-UIUX-Design?node-id=0-1&t=eG9sWhZstGhMqPaM-1",
         },
       },
     },
@@ -256,8 +257,7 @@ export const projects = {
       category:
         "Freelance Client Project • Full-stack Developer • Sep 2026 – Present",
 
-      description:
-        "A full-stack website being developed for Hues Café to strengthen its online presence by showcasing the café's story, products, services, coffee cart packages, and contact information through a modern, responsive, and user-friendly experience.",
+      description:  "A full-stack business website being developed for Hues Café to strengthen its online presence by showcasing the café's story, menu, products, services, coffee cart packages, and contact information through a modern, responsive, and user-friendly experience while reinforcing brand identity across mobile devices.",
 
       features: [
         "Responsive landing pages showcasing the café's brand and story.",
@@ -324,17 +324,17 @@ export const projects = {
 
       title: "Baybayin Learning Platform",
 
-      category: "Personal Project • Full-stack Developer • Sep 2026 – Present",
+      category: "Personal Project • Frontend Developer • Sep 2026 – Oct 2026",
 
       description:
-        "An interactive web platform for learning Baybayin through guided lessons, quizzes, a live keyboard, and a transliteration tool. The application helps users learn, practice, and write using the traditional Filipino writing system.",
+        "An interactive educational web application for learning the Baybayin writing system through structured lessons, a virtual keyboard, a Filipino-to-Baybayin transliteration tool, and gamified practice activities. Designed to help beginners understand Baybayin writing rules through an engaging learning experience.",
 
       features: [
-        "Step-by-step interactive lessons covering vowels, consonants, kudlit, and writing rules.",
-        "Live Baybayin keyboard with transliteration and character input modes.",
-        "Filipino-to-Baybayin translator with syllable breakdown and character analysis.",
-        "Interactive quizzes and practice exercises with progress tracking.",
-        "Responsive educational interface designed for desktop devices.",
+        "Interactive lessons covering vowels, consonants, kudlit, virama, and Baybayin writing rules.",
+        "Virtual Baybayin keyboard with transliteration and direct character input modes.",
+        "Rule-based Filipino-to-Baybayin transliteration with syllable segmentation and character conversion.",
+        "Gamified practice activities and quizzes with visual progress indicators.",
+        "Responsive interface optimized for desktop devices.",
       ],
 
       stack: [
@@ -345,45 +345,48 @@ export const projects = {
         "CSS",
         "JavaScript",
         "Visual Studio Code",
-        "Figma",
+        "Git",
+        "GitHub",
       ],
 
-      repository: "https://github.com/aaronnedelacruz/baybayin-learning-platform",
+      repository:
+        "https://github.com/aaronnedelacruz/baybayin-learning-platform",
 
-      hasDemo: false,
+      hasDemo: true,
 
-      demo: "#",
+      demo: "https://aaronnedelacruz.github.io/baybayin-learning-platform/",
 
       details: {
         overview:
-          "Developing a modern educational platform that introduces users to the Baybayin writing system through structured lessons, interactive learning tools, quizzes, and a built-in transliteration engine. The project focuses on making Baybayin easier to understand while providing an engaging and responsive user experience.",
+          "Developed an interactive educational web application that teaches the Baybayin writing system through structured lessons, a virtual keyboard, a rule-based Filipino-to-Baybayin transliteration tool, and gamified practice activities. The platform aims to make learning Baybayin more accessible through an intuitive and engaging user experience.",
 
         challenge:
-          "Learning Baybayin can be difficult for beginners because educational resources are often fragmented and lack interactive learning experiences. Existing translators also frequently perform direct letter substitutions instead of correctly following Baybayin writing rules.",
+          "Learning Baybayin can be difficult because educational resources are often fragmented and many online translators rely on direct letter substitution instead of following proper Baybayin writing rules, making it harder for beginners to understand how the script is actually written.",
 
         solution:
-          "Designed and developed a full-stack learning platform that combines structured educational lessons, interactive quizzes, a live Baybayin keyboard, and a rule-based transliteration engine to provide a comprehensive and engaging learning experience.",
+          "Designed and developed a React-based learning platform that combines structured lessons, gamified practice activities, a virtual Baybayin keyboard, and a rule-based transliteration engine into a single educational experience that emphasizes accurate writing rules.",
 
         impact: [
-          "Made Baybayin learning more approachable through guided, interactive lessons.",
-          "Provided learners with practical tools to write and translate Baybayin accurately.",
-          "Combined education, practice, and writing tools into a single web application.",
-          "Demonstrated algorithmic text processing alongside responsive full-stack web development.",
+          "Provided a structured and engaging way to learn the Baybayin writing system.",
+          "Encouraged active learning through gamified practice activities and guided lessons.",
+          "Integrated educational content, writing tools, and transliteration into a single web application.",
+          "Demonstrated frontend development, responsive UI design, and rule-based text processing using React and TypeScript.",
         ],
 
         tech: {
           frontend: ["React", "TypeScript", "HTML", "CSS", "JavaScript"],
 
-          backend: ["PHP"],
+          backend: [],
 
-          database: [""],
+          database: [],
 
-          tools: ["Vite", "Visual Studio Code", "Git"],
+          tools: ["Vite", "Visual Studio Code", "Git", "GitHub"],
         },
 
         links: {
-          demo: "#",
-          repository: "https://github.com/aaronnedelacruz/baybayin-learning-platform",
+          demo: "https://aaronnedelacruz.github.io/baybayin-learning-platform/",
+          repository:
+            "https://github.com/aaronnedelacruz/baybayin-learning-platform",
           figma: "",
         },
       },
